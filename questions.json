@@ -1,0 +1,290 @@
+[
+  {
+    "question": "What is the capital of India?",
+    "options": [
+      "Mumbai",
+      "New Delhi",
+      "Jaipur",
+      "Lucknow"
+    ],
+    "answer": "New Delhi",
+    "difficulty": "easy",
+    "explanation": "New Delhi is the capital of India."
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Jupiter",
+      "Mars",
+      "Mercury"
+    ],
+    "answer": "Mars",
+    "difficulty": "easy",
+    "explanation": "Iron oxide on Mars gives its surface a reddish appearance."
+  },
+  {
+    "question": "Which data type stores True or False in Python?",
+    "options": [
+      "str",
+      "bool",
+      "list",
+      "float"
+    ],
+    "answer": "bool",
+    "difficulty": "easy",
+    "explanation": "The bool type represents the Boolean values True and False."
+  },
+  {
+    "question": "What is 12 × 8?",
+    "options": [
+      "88",
+      "96",
+      "108",
+      "86"
+    ],
+    "answer": "96",
+    "difficulty": "easy",
+    "explanation": "12 multiplied by 8 equals 96."
+  },
+  {
+    "question": "Which keyword defines a function in Python?",
+    "options": [
+      "func",
+      "function",
+      "def",
+      "define"
+    ],
+    "answer": "def",
+    "difficulty": "easy",
+    "explanation": "Python functions are declared using the def keyword."
+  },
+  {
+    "question": "Which ocean is the largest on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "answer": "Pacific Ocean",
+    "difficulty": "easy",
+    "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth."
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Program Utility",
+      "Control Processing User"
+    ],
+    "answer": "Central Processing Unit",
+    "difficulty": "easy",
+    "explanation": "CPU stands for Central Processing Unit."
+  },
+  {
+    "question": "Which HTML element creates a hyperlink?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "answer": "<a>",
+    "difficulty": "easy",
+    "explanation": "The anchor element, <a>, creates hyperlinks."
+  },
+  {
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": [
+      "O(n)",
+      "O(n²)",
+      "O(log n)",
+      "O(1)"
+    ],
+    "answer": "O(log n)",
+    "difficulty": "medium",
+    "explanation": "Binary search halves the remaining search range on each step."
+  },
+  {
+    "question": "Which Python collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "answer": "tuple",
+    "difficulty": "medium",
+    "explanation": "A tuple cannot have its items reassigned after creation."
+  },
+  {
+    "question": "In SQL, which clause filters rows before grouping?",
+    "options": [
+      "HAVING",
+      "ORDER BY",
+      "WHERE",
+      "GROUP BY"
+    ],
+    "answer": "WHERE",
+    "difficulty": "medium",
+    "explanation": "WHERE filters individual rows before grouping; HAVING filters groups."
+  },
+  {
+    "question": "Which HTTP status code commonly means 'Not Found'?",
+    "options": [
+      "200",
+      "301",
+      "404",
+      "500"
+    ],
+    "answer": "404",
+    "difficulty": "medium",
+    "explanation": "HTTP 404 indicates that the requested resource was not found."
+  },
+  {
+    "question": "Which data structure follows FIFO order?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Tree",
+      "Graph"
+    ],
+    "answer": "Queue",
+    "difficulty": "medium",
+    "explanation": "A queue removes items in first-in, first-out order."
+  },
+  {
+    "question": "What does CSS primarily control in a web page?",
+    "options": [
+      "Database storage",
+      "Page presentation and layout",
+      "Server routing",
+      "Network protocols"
+    ],
+    "answer": "Page presentation and layout",
+    "difficulty": "medium",
+    "explanation": "CSS controls styling, layout, and visual presentation."
+  },
+  {
+    "question": "What is the result of len([4, 7, 9]) in Python?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "answer": "3",
+    "difficulty": "medium",
+    "explanation": "The list contains three elements, so len(...) returns 3."
+  },
+  {
+    "question": "Which normal form primarily removes partial dependency on a composite key?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "answer": "2NF",
+    "difficulty": "hard",
+    "explanation": "Second Normal Form removes partial dependencies of non-prime attributes on candidate keys."
+  },
+  {
+    "question": "Which traversal of a binary search tree visits keys in sorted order when the tree is valid?",
+    "options": [
+      "Preorder",
+      "Postorder",
+      "Inorder",
+      "Level order"
+    ],
+    "answer": "Inorder",
+    "difficulty": "hard",
+    "explanation": "Inorder traversal visits left subtree, node, then right subtree."
+  },
+  {
+    "question": "Which structure is commonly used by depth-first search to manage pending nodes iteratively?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Heap only",
+      "Hash table only"
+    ],
+    "answer": "Stack",
+    "difficulty": "hard",
+    "explanation": "DFS uses a stack, either explicitly or through the program call stack."
+  },
+  {
+    "question": "What is the average-case lookup time for a key in a well-sized Python dictionary?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n log n)"
+    ],
+    "answer": "O(1)",
+    "difficulty": "hard",
+    "explanation": "Hash-table lookup is average-case constant time, though worst-case behavior can be slower."
+  },
+  {
+    "question": "In object-oriented programming, which concept lets a class provide a specialized implementation of a parent method?",
+    "options": [
+      "Encapsulation",
+      "Method overriding",
+      "Compilation",
+      "Normalization"
+    ],
+    "answer": "Method overriding",
+    "difficulty": "hard",
+    "explanation": "Method overriding lets a subclass replace or specialize an inherited method implementation."
+  },
+  {
+    "question": "Which algorithmic strategy solves a problem by combining solutions to smaller subproblems, often storing their results?",
+    "options": [
+      "Brute force only",
+      "Dynamic programming",
+      "Linear scanning",
+      "Randomization only"
+    ],
+    "answer": "Dynamic programming",
+    "difficulty": "hard",
+    "explanation": "Dynamic programming stores and reuses subproblem results to avoid repeated work."
+  },
+  {
+    "question": "What does a database index generally improve?",
+    "options": [
+      "Every write operation without trade-offs",
+      "Read/search performance",
+      "Data encryption automatically",
+      "Schema normalization automatically"
+    ],
+    "answer": "Read/search performance",
+    "difficulty": "medium",
+    "explanation": "Indexes can speed up queries, while using extra storage and potentially slowing writes."
+  },
+  {
+    "question": "Which Git command creates a new local branch named feature?",
+    "options": [
+      "git checkout --delete feature",
+      "git branch feature",
+      "git merge feature",
+      "git reset feature"
+    ],
+    "answer": "git branch feature",
+    "difficulty": "medium",
+    "explanation": "git branch feature creates a local branch without switching to it."
+  },
+  {
+    "question": "What is the output of Python expression 2 ** 3?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "difficulty": "easy",
+    "explanation": "The ** operator performs exponentiation: 2³ equals 8."
+  }
+]
